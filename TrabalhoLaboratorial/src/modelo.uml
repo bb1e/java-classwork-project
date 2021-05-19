@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="235.0" y="689.0">modelo.Horario</node>
+    <node x="272.5" y="0.0">modelo.Identificador</node>
+    <node x="0.0" y="347.5">modelo.Aluno</node>
+    <node x="216.0" y="215.0">modelo.Professor</node>
+    <node x="0.0" y="689.0">modelo.DiaSemana</node>
+    <node x="538.0" y="171.0">modelo.Aula</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="modelo.Professor" target="modelo.Identificador">
+      <point x="0.0" y="-192.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="modelo.Aluno" target="modelo.Identificador">
+      <point x="0.0" y="-60.0" />
+      <point x="98.0" y="146.0" />
+      <point x="304.0" y="146.0" />
+      <point x="-63.0" y="60.5" />
+    </edge>
+    <edge source="modelo.Aula" target="modelo.Identificador">
+      <point x="0.0" y="-236.5" />
+      <point x="727.5" y="146.0" />
+      <point x="430.0" y="146.0" />
+      <point x="63.0" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="492.0" y="693.333333333333" />
+  <SelectedNodes>
+    <node>modelo.Aula</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

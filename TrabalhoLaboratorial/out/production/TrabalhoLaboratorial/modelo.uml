@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="281.0">modelo.Horario</node>
+    <node x="254.21691176470588" y="303.0">modelo.Identificador</node>
+    <node x="195.81066176470588" y="1298.0">modelo.Aluno</node>
+    <node x="5.0" y="0.0">modelo.DiaSemana</node>
+    <node x="111.28125" y="541.0">modelo.Professor</node>
+    <node x="36.71875" y="811.0">modelo.Aula</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="modelo.Professor" target="modelo.Identificador">
+      <point x="90.0" y="-105.0" />
+      <point x="321.28125" y="521.0" />
+      <point x="301.46691176470586" y="521.0" />
+      <point x="-47.25" y="83.0" />
+    </edge>
+    <edge source="modelo.Aula" target="modelo.Identificador">
+      <point x="109.6875" y="-193.0" />
+      <point x="321.90625" y="781.0" />
+      <point x="361.78125" y="781.0" />
+      <point x="361.78125" y="521.0" />
+      <point x="332.96691176470586" y="521.0" />
+      <point x="-15.75" y="83.0" />
+    </edge>
+    <edge source="modelo.Aluno" target="modelo.Identificador">
+      <point x="105.0" y="-94.0" />
+      <point x="376.81066176470586" y="1247.0" />
+      <point x="424.68566176470586" y="1247.0" />
+      <point x="424.68566176470586" y="521.0" />
+      <point x="427.46691176470586" y="521.0" />
+      <point x="78.75" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="491.67063492063494" y="1106.1507936507935" />
+  <SelectedNodes>
+    <node>modelo.Aluno</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
